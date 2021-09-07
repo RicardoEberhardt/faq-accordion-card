@@ -72,6 +72,9 @@ img {
 
 .questions div a {
     position: relative;
+}
+
+a .question {
     color: hsl(237, 12%, 33%);
 }
 
@@ -84,7 +87,7 @@ img {
     padding-left: 10px;
 }
 
-.question-hover:hover .question {
+.question-hover:hover a .question {
     font-weight: bold;
 }
 
