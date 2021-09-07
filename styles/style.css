@@ -70,8 +70,9 @@ img {
     color: hsl(237, 12%, 33%);
 }
 
-.questions div {
+.questions div a {
     position: relative;
+    color: hsl(237, 12%, 33%);
 }
 
 .question-hover {
@@ -81,6 +82,10 @@ img {
 .question-hover:hover {
     background-color: hsla(240, 5%, 68%, 0.055);
     padding-left: 10px;
+}
+
+.question-hover:hover .question {
+    font-weight: bold;
 }
 
 .answer {
